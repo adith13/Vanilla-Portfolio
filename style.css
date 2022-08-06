@@ -18,7 +18,7 @@ html {
 body{
     background-color: var(--ghost-white);
     height: 100%;
-    width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
 }
@@ -45,7 +45,7 @@ h2{
 }
 
 nav {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -97,18 +97,8 @@ li {
     font-style: normal;
 }
 
-/* #section1 {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    background-color: azure;
-} */
-
 #Homesec {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -147,7 +137,7 @@ li {
 
 #Aboutsec{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     position: relative;
     display: flex;
@@ -180,7 +170,7 @@ li {
 
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     position: relative;
     flex-direction: column;
@@ -277,7 +267,7 @@ li {
 #Educationsec {
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     position: relative;
     flex-direction: column;
@@ -287,7 +277,7 @@ li {
 #Hobbiessec {
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     position: relative;
     flex-direction: column;
@@ -419,11 +409,10 @@ h3{
 #Contactsec{
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     position: relative;
     flex-direction: column;
-    /* background: lightcyan;  */
 }
 
 .blob-final {
@@ -480,18 +469,13 @@ h3{
 }
 
 .link{
-    
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
-    /* line-height: 28px; */
-    /* identical to box height */
 
     text-decoration: none;
     text-transform: uppercase;
-
-    /* rich green */
 
     color: var(--rich-green);
 
