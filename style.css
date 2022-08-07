@@ -271,7 +271,126 @@ li {
     align-items: center;
     position: relative;
     flex-direction: column;
-    /* background: lavender ; */
+    background: lavender ;
+}
+
+.edus-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    margin-top: 320px;
+
+    position: absolute;
+    /* width: 1100px;
+    height: 303px; */
+    /* left: 206px;
+    top: 322px; */
+}
+
+.edu-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap : 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.edu-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    align-items: flex-start;
+    padding: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.edu-head h3{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: var(--rich-green);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.edu-head p{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: black;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.edu-place{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.edu-school{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 5px;
+    gap: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.edu-place p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: var(--bad-browm);
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.edu-con{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    width: 1000px;
+
+    color: black;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
 #Hobbiessec {
@@ -387,7 +506,7 @@ h3{
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-}
+}   
 
 .hc-img1{
     width: 100px;
